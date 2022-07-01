@@ -4,21 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="../Bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="../estilo/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <ul class="p-1">
+    <nav role="navigation">
+        <h1 class="redes">Luis Salinas</h1>
+        <ul class="menu-normal">
             <a href="../index.html"><li>Inicio</li></a>
-            <a href="./Paginas/Galeria.html"><li>Galería</li></a>
-            <a href="./Paginas/Calendario.html"><li>Calendario</li></a>
-            <a href="./Paginas/Contacto.html"><li>Contacto</li></a>
+            <a href="./Calendario.html"><li>Calendario</li></a>
+            <a href=""><li>Galeria</li></a>
+            <a href=""><li>Discografía</li></a>
+            <a href=""><li>Bio</li></a>
+            <a href=""><li>Contacto</li></a>
         </ul>
-    </nav>
-    <a class="nl" href="https://nolaborables.com.ar">NoLaborables.com.ar</a>
-    <div id="mount"></div>
-    <script src="../js/index.js"></script>
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>About</li></a>
+            <a href="#"><li>Info</li></a>
+            <a href="#"><li>Contact</li></a>
+            <a href="" target="_blank"><li>Show me more</li></a>
+          </ul>
+        </div>
+      </nav>
+    <section class="sectionCalen">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="../multimedia/card3.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h3 class="card-title"> <b>23 de Julio</b> </h3>
+              <p class="card-text">Luis Salinas celebra su cumpleaños. Conseguí tus entradas ahora mismo haciendo click aquí abajo</p>
+              <a href="http://www.bebopclub.com.ar/" target="_blank" class="btn btn-primary">Comprar Ahora</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="../multimedia/card1.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h3 class="card-title"><b>5 de Agosto</b></h3>
+              <p class="card-text">Acompañanos en Café Berlin a escuchar el recital acústico que va dar Luis Salinas. Hace click aquí abajo</p>
+              <a href="http://www.cafeberlinbuenosaires.com.ar/" target="_blank" class="btn btn-primary">Comprar Ahora</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="../multimedia/card2.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><b>18 de Agosto</b></h5>
+              <p class="card-text">Juan Salinas Trio se presenta junto a otros 3 artista para dar un gran show en Jean Juarez.</p>
+              <a href="http://www.passline.com/" class="btn btn-primary">Comprar ahora</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="../multimedia/card4.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><b>10 de Septiembre</b></h5>
+              <p class="card-text">Luis Salinas llega al Coliseo Podesta de La Plata. Conseguí tus entradas antes que se terminen.</p>
+              <a target="_blank" href="https://www.coliseopodesta.laplata.gob.ar/" class="btn btn-primary">Comprar Ahora</a>
+            </div>
+          </div>
+    </section>
+    <section class="section1">
+        <button class="recitales btn btn-primary">Ver Mas Recitales</button>
+    </section>
+    <footer>
+        <div class="titulo"><h2>Menú</h2></div>
+        <div class="menu1">
+            <ul class="list-unstyled Menu_Footer">
+                <a href=""><li>Inicio</li></a>
+                <a href=""><li>Calendario</li></a>
+                <a href=""><li>Galeria</li></a>
+            </ul>
+        </div>
+        <div class="menu2">
+            <ul class="list-unstyled Menu_Footer">
+                <a href=""><li>Discografía</li></a>
+                <a href=""><li>Bio</li></a>
+                <a href=""><li>Contacto</li></a>
+            </ul>
+        </div>
+        <div class="Redes_Footer">
+            <a href="https://www.twitter.com/redbullbatalla/" target="_blank">
+                <img src="../multimedia/spotify.png" alt="Twitter"></a> 
+            <a href="https://www.instagram.com/redbullbatalla/" target="_blank">
+                <img  src="../multimedia/instagram.png" alt="instagram"></a>
+            <a href="">
+                <img src="../multimedia/facebook-logo.png" alt="">
+            </a>
+            <a href="https://www.youtube.com/redbullbatalla/" target="_blank">
+                <img src="../multimedia/youtube.png" alt="youtube"></a>
+        </div>
+    </footer>
 </body>
 </html>
