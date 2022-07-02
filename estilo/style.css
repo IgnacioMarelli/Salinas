@@ -245,6 +245,18 @@ footer {
   justify-content: center;
   margin-top: 3rem; }
 
+.pBio {
+  font-size: 1.5rem;
+  margin-left: 2.6rem;
+  margin-right: 2.6rem; }
+
+.divBio {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
 @media only screen and (max-width: 900px) {
   .menu-normal {
     display: none; }
