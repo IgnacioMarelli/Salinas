@@ -247,9 +247,9 @@ footer {
   margin-top: 3rem; }
 
 .pBio {
-  font-size: 1.5rem;
   margin-left: 2.6rem;
-  margin-right: 2.6rem; }
+  margin-right: 2.6rem;
+  font-size: larger; }
 
 .divBio {
   background-color: black;
@@ -257,6 +257,24 @@ footer {
   justify-content: center;
   margin-top: 2rem;
   margin-bottom: 2rem; }
+
+.imagenBio {
+  width: 100%; }
+
+.nombre {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Smooch', cursive;
+  margin-bottom: 4rem; }
+
+.pVid {
+  display: flex;
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
+
+.videoBio {
+  width: 50%;
+  height: 50rem; }
 
 .abajoBio {
   display: flex; }
@@ -279,7 +297,7 @@ footer {
 
 .sectionB {
   padding-top: 1rem;
-  background: linear-gradient(to right, #000428, #2a5298, #1e3c72, #000428, black); }
+  background-image: url(../multimedia/fondo.jpg); }
 
 @media only screen and (max-width: 900px) {
   .menu-normal {
