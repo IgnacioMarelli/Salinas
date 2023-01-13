@@ -11,9 +11,15 @@ body
   color: azure;
   font-family: none;
 }
-
+.spotify{
+  height: 450px;
+  width: 100%;
+}
 h1 {
   font-size: 2.9rem;
+}
+.entrada{
+  display: none;
 }
 #menuToggle{
   display: none;
@@ -897,6 +903,9 @@ $card-hover-offset-y: 60px;
   .luis{
     margin-left: 0;
   }
+  .entrada{
+    display: block;
+  }
   .carousel-item.active{
     display: block;
     padding-left: 0px;
@@ -916,14 +925,28 @@ $card-hover-offset-y: 60px;
     background-size: cover;
   }
   .luis{
-    position: absolute;
+    display: none;
   }
   .arti{
     display: none;
   }
+  .carousel-item.active{
+    display: flex;
+  }
+  .redes{
+    display: none;
+  }
   .parrafo{
-    margin-left: 11rem;
-    margin-top: 0.2rem;
+    text-align-last: center;
+    justify-self: start;
+    margin:0;
+    width: 100%;
+    font-family: 'Smooch', cursive;
+    display: grid;
+  }
+  button{
+    border-radius: 0.2rem;
+    border-bottom: solid;
   }
   #menuToggle{
     top: 50%;
@@ -931,5 +954,33 @@ $card-hover-offset-y: 60px;
   }
   nav{
     grid-template-columns: 30% 55%;
+  }
+  .section{
+    display: block;
+    margin:1rem;
+  }
+  .spotify{
+    padding: 0;
+    margin: 0;
+    height: 300px;
+  }
+  .hero-section{
+    padding: 0;
+    margin: 0;
+  }
+  .carda{
+    border-bottom: solid;
+  }
+  footer{
+    display: grid;
+    box-shadow: none;
+    grid-template-rows: 20% 60% 20%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 'titulo titulo' 'menu1 menu2' 'redes redes';
+
+  }
+  .menu1,.menu2{
+    justify-self: normal;
+    margin:0;
   }
 }
