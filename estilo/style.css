@@ -539,6 +539,9 @@ footer {
     grid-template-areas: 'men nombre';
     justify-content: normal;
     grid-template-columns: 5fr 7fr; }
+  .hero-section {
+    padding: 0;
+    padding-left: 0.3rem; }
   .redes {
     grid-area: men;
     grid-column: auto; }
@@ -632,3 +635,31 @@ footer {
     margin-bottom: 4rem; }
   .imgBio {
     width: 100%; } }
+
+@media only screen and (max-width: 426px) {
+  .luis {
+    margin-left: 0; }
+  .carousel-item.active {
+    display: block;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 15rem; }
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    display: none; }
+  .main_img {
+    width: 100%; }
+  .carousel {
+    background-image: url(../../multimedia/salfondo.jpg);
+    background-size: cover; }
+  .luis {
+    position: absolute; }
+  .arti {
+    display: none; }
+  .parrafo {
+    margin-left: 11rem;
+    margin-top: 0.2rem; }
+  #menuToggle {
+    top: 50%;
+    left: 30%; }
+  nav {
+    grid-template-columns: 30% 55%; } }
