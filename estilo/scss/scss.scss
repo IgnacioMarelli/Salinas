@@ -576,13 +576,17 @@ footer {
     grid-template-columns: 30% 55%;
   }
   .section{
-    display: block;
+    grid-template-areas:
+    'spotify'
+    'p';
+    grid-template-columns: none;
     margin:1rem;
+    grid-template-rows: 50% 50%;
   }
   .spotify{
     padding: 0;
     margin: 0;
-    height: 50%;
+    height: 97%;
   }
   .hero-section{
     padding: 0;
@@ -597,7 +601,7 @@ footer {
     grid-template-rows: 20% 60% 20%;
     grid-template-columns: 50% 50%;
     grid-template-areas: 'titulo titulo' 'menu1 menu2' 'redes redes';
-
+    margin-top: 30rem;
   }
   .menu1,.menu2{
     justify-self: normal;
