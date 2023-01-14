@@ -57,7 +57,7 @@ a:hover:after {
   width: 100%; 
   left: 0; 
 }
-.redes{
+.redes, .redes1{
   align-self: center;
   font-family: 'Smooch', cursive;
 }
@@ -360,7 +360,7 @@ footer {
     padding: 0;
     padding-left: 0.3rem;
   }
-  .redes{
+  .redes, .redes1{
     grid-area: men;
     grid-column: auto;
   }
@@ -595,7 +595,7 @@ footer {
   .carda{
     border-bottom: solid;
   }
-  footer{
+  .footer1{
     display: grid;
     box-shadow: none;
     grid-template-rows: 20% 60% 20%;
